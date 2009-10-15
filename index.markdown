@@ -7,9 +7,8 @@ efficiently manage projects using an Agile methodology.
 http://agilito.googlecode.com/files/agilito-interation-overview-sm.jpg
 
 Here you can find: 
-
-  * Source code
-  * [Documentation(http://code.google.com/p/agilito/w/list?q=label:Documentation), including [Screencasts](http://code.google.com/p/agilito/w/list?q=label:Screencast)
+* Source code
+* [Documentation](http://code.google.com/p/agilito/w/list?q=label:Documentation), including [Screencasts](http://code.google.com/p/agilito/w/list?q=label:Screencast)
 
 ==Where to find help==
   * [http://groups.google.com/group/agilito-dev Developer mailing
