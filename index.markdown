@@ -1,3 +1,7 @@
+---
+layout: page
+title: Agile Information Radiator
+---
 Agilito aims to do *just enough* for you to effectively and
 efficiently manage projects using an Agile methodology.
 http://agilito.googlecode.com/files/agilito-interation-overview-sm.jpg
