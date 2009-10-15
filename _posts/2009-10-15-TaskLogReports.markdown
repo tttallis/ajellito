@@ -1,19 +1,19 @@
 ---
-layout: page
 title: How to generate a csv of task logs
-category: [Documentation]
 ---
-= Introduction =
+# Introduction
 
 For all projects:
-{{{
-<path/to/agilito>/csv/
-}}}
+
+    <path/to/agilito>/csv/
+
 For a particular project:
-{{{
-<path/to/agilito>/<project_id>/csv/
-}}}
+
+    <path/to/agilito>/<project_id>/csv/
+
 For a particular project and particular user:
-{{{
-<path/to/agilito>/<project_id>/csv/<username>
-}}}
+
+    <path/to/agilito>/<project_id>/csv/<username>
+
+
+
