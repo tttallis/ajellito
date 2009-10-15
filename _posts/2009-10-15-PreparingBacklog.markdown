@@ -1,5 +1,6 @@
 ---
 title: Documentation on how to prepare the backlog
+layout: page
 ---
 \1. Add user stories to backlog quickly by filling out a short
  form.

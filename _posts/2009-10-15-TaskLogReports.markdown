@@ -1,5 +1,6 @@
 ---
 title: How to generate a csv of task logs
+layout: page
 ---
 # Introduction
 

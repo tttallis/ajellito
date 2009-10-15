@@ -1,5 +1,6 @@
 ---
 title: How to set up an agilito instance
+layout: page
 ---
 ## Introduction
 
