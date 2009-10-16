@@ -6,13 +6,7 @@ category: navigation
 ---
 Agilito aims to do **just enough** for you to effectively and
 efficiently manage projects using an Agile methodology.
-![image](http://agilito.googlecode.com/files/agilito-interation-overview-sm.jpg)
-
-Here you can find:
--   Source code
--   [Documentation](http://code.google.com/p/agilito/w/list?q=label:Documentation),
-    including
-    [screencasts](http://code.google.com/p/agilito/w/list?q=label:Screencast)
+![image](media/agilito-interation-overview-sm.jpg)
 
 ## Where to find help
 

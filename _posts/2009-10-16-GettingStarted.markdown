@@ -41,9 +41,8 @@ did:
         $ cd agilito-env
         $ ./bin/easy_install Django
 
-Run the
-[agilito installer script](http://agilito.googlecode.com/svn/trunk/agilito/install.py):
-        $ wget http://agilito.googlecode.com/svn/trunk/agilito/install.py
+Run the [agilito installer script](http://github.com/friflaj/django-air/raw/master/agilito/install.py):
+        $ wget http://github.com/friflaj/django-air/raw/master/agilito/install.py
         $ ./install.py agilitoproject
 
 > The first run of this script will create a basic django project and
