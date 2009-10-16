@@ -1,5 +1,6 @@
 ---
 title: Documentation on how to add a task and estimates to a particular user story.
+name: Add Task And Estimate
 layout: page
 ---
 Login to Agilito with your account. In the top left area of the

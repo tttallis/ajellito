@@ -1,5 +1,6 @@
 ---
 title: Documentation on how to log your hours worked
+name: Logging Hours
 layout: page
 ---
 *note: need to add screenshots*

@@ -1,5 +1,6 @@
 ---
 title: A video showing how teams can use Agilito to plan and estimate work for an iteration.
+name: Iteration Planning
 layout: page
 ---
 Watch video here:

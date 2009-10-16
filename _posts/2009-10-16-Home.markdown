@@ -1,5 +1,6 @@
 ---
 title: Simple, web-based Agile / Scrum project management tool built in Django
+name: Home
 layout: page
 ---
 Agilito aims to do **just enough** for you to effectively and

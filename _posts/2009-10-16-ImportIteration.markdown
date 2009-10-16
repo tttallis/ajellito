@@ -1,5 +1,6 @@
 ---
 title: Importing an iteration using a spreadsheet
+name: Import Iteration
 layout: page
 ---
 When you click on the 'import iteration' in the iteration tab, you
