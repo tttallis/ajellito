@@ -41,24 +41,13 @@ did:
         $ cd agilito-env
         $ ./bin/easy_install Django
 
-Run the [agilito installer script](http://github.com/friflaj/django-air/raw/master/agilito/install.py):
-        $ wget http://github.com/friflaj/django-air/raw/master/agilito/install.py
-        $ ./install.py agilitoproject
+Clone the Agilito repo and run the installer script:
+        $ git clone git://github.com/friflaj/django-air.git
+        $ cd django-air
+        $ ./agilito/install.py
 
-> The first run of this script will create a basic django project and
-> will install agilito trunk into it. Change into
-> agilitoproject/agilito, and then run
->         $ ./install.py
-> 
-> until it says you're good to go.
-
-**IMPORTANT: You don't specifically have to name the project 'agilitoproject'; it can be anything, as long as it's not *agilito*.**
-
-Configure a SQLite database for our project. Edit
-agilitoproject/settings.py and change the DATABASE\_ENGINE and
-DATABASE\_NAME to look like this:
-          DATABASE_ENGINE = 'sqlite3'
-          DATABASE_NAME = 'agilito.db'
+**IMPORTANT: You don't specifically have to name the project
+'django-air'; it can be anything, as long as it's not *agilito*.**
 
 Synchronize the data base and start the Django development server.
 From the agilitoproject directory run:
