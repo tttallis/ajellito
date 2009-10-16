@@ -1,7 +1,7 @@
 ---
 title: This page offers documentation for the steps that use the Django admin screens, including adding users, projects, and iterations.
 name: Add Users Projects And Iterations
-layout: page
+layout: default
 ---
 ## Add Users
 

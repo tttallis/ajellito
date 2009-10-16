@@ -1,7 +1,8 @@
 ---
 title: How to set up an agilito instance
 name: Getting Started
-layout: page
+layout: default
+category: navigation
 ---
 ## Introduction
 

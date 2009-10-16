@@ -1,7 +1,7 @@
 ---
 title: Importing an iteration using a spreadsheet
 name: Import Iteration
-layout: page
+layout: default
 ---
 When you click on the 'import iteration' in the iteration tab, you
 are presented with a form where you can fill out data, and two

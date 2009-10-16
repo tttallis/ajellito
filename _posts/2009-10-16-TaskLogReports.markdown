@@ -1,7 +1,7 @@
 ---
 title: How to generate a csv of task logs
 name: Task Log Reports
-layout: page
+layout: default
 ---
 # Introduction
 

@@ -1,14 +1,12 @@
----
-layout: default
-title: Agile Information Radiator
----
+<html>
+    <head>
+        <meta http-equiv="refresh" content="0; URL=Home.html">
+    </head>
 
-<div id="home">
-  <ul class="posts">
-    {% for post in site.categories.frontpage %}
-        <h1>{{post.title}}</h1>
-        {{post.content}}
-    {% endfor %}
-  </ul>
-</div>
-  
+    <body>
+        <p align="center">The home page is <a href="Home.html">here</a></p>
+        <script type="text/javascript">
+            location.href = 'Home.html';
+        </script>
+    </body>
+</html>
