@@ -20,39 +20,26 @@ system:
 -   matplotlib (optional,
     [http://matplotlib.sourceforge.net/](http://matplotlib.sourceforge.net/))
 
-Either download or easy install the virtualenv.py script. I choose
-to download it from SVN:
-        $ cd $HOME
-        $ wget http://svn.colorstudy.com/virtualenv/trunk/virtualenv.py
-
-> This downloads the virtualenv.py script in our home directory.
-
--   Create a python virtual environment for Ajellito:
-
-        $ python2.5 virtualenv.py ajellito-env
-
 Install Django. If you already have Django installed, just jump
 into the next step, otherwise you'll need to install Django. Take
 into account that Ajellito needs Django version 1.0 to run. There
 are several ways to install Django. You can follow the Quick
-Install Guide from the Django site. I choose to easy install it in
-the python virtual environment created in the previous step, so I
-did:
-        $ cd ajellito-env
-        $ ./bin/easy_install Django
+Install Guide from the Django site. I choose to easy install it:
+
+        $ easy_install Django
 
 Clone the Ajellito repo and run the installer script:
-        $ git clone git://github.com/friflaj/django-air.git
-        $ cd django-air
-        $ ./ajellito/install.py
+        $ git clone git://github.com/friflaj/ajellito.git
+        $ cd ajellito
+        $ ./agilito/install.py
 
 **IMPORTANT: You don't specifically have to name the project
-'django-air'; it can be anything, as long as it's not *agilito*.**
+'ajellito'; it can be anything, as long as it's not *agilito*.**
 
 Synchronize the data base and start the Django development server.
 From the ajellito directory run:
-        $ ../bin/python manage.py syncdb
-        $ ../bin/python manage.py runserver
+        $ python manage.py syncdb
+        $ python manage.py runserver
 
 ## RSS Feeds
 
