@@ -29,6 +29,7 @@ Install Guide from the Django site. I choose to easy install it:
         $ easy_install Django
 
 Clone the Ajellito repo and run the installer script:
+
         $ git clone git://github.com/friflaj/ajellito.git
         $ cd ajellito
         $ ./agilito/install.py
@@ -38,6 +39,7 @@ Clone the Ajellito repo and run the installer script:
 
 Synchronize the data base and start the Django development server.
 From the ajellito directory run:
+
         $ python manage.py syncdb
         $ python manage.py runserver
 
