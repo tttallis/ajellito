@@ -1,12 +1,12 @@
 ---
-title: How to set up an agilito instance
+title: How to set up an ajellito instance
 name: Getting Started
 layout: default
 category: navigation
 ---
 ## Introduction
 
-This document is about how to setup up Agilito in a Python virtual
+This document is about how to setup up Ajellito in a Python virtual
 environment.
 
 ## Details
@@ -27,36 +27,36 @@ to download it from SVN:
 
 > This downloads the virtualenv.py script in our home directory.
 
--   Create a python virtual environment for Agilito:
+-   Create a python virtual environment for Ajellito:
 
-        $ python2.5 virtualenv.py agilito-env
+        $ python2.5 virtualenv.py ajellito-env
 
 Install Django. If you already have Django installed, just jump
 into the next step, otherwise you'll need to install Django. Take
-into account that Agilito needs Django version 1.0 to run. There
+into account that Ajellito needs Django version 1.0 to run. There
 are several ways to install Django. You can follow the Quick
 Install Guide from the Django site. I choose to easy install it in
 the python virtual environment created in the previous step, so I
 did:
-        $ cd agilito-env
+        $ cd ajellito-env
         $ ./bin/easy_install Django
 
-Clone the Agilito repo and run the installer script:
+Clone the Ajellito repo and run the installer script:
         $ git clone git://github.com/friflaj/django-air.git
         $ cd django-air
-        $ ./agilito/install.py
+        $ ./ajellito/install.py
 
 **IMPORTANT: You don't specifically have to name the project
 'django-air'; it can be anything, as long as it's not *agilito*.**
 
 Synchronize the data base and start the Django development server.
-From the agilitoproject directory run:
+From the ajellito directory run:
         $ ../bin/python manage.py syncdb
         $ ../bin/python manage.py runserver
 
 ## RSS Feeds
 
-Agilito offers RSS feeds for your product backlog and iteration.
+Ajellito offers RSS feeds for your product backlog and iteration.
 The domain name for the links in the feed will be determined by the
 SITE\_ID in your settings.py, so make sure that the site that
 points to has its domain name set correctly in the backend
@@ -69,7 +69,7 @@ that we choose when we ran the manage.py syncdb command.
 
 ## Database upgrades
 
-If you're upgrading your agilito version it could be necessary to
+If you're upgrading your ajellito version it could be necessary to
 add columns to existing tables. Django doesn't provide a
 standardized way to do this, but the install script will attempt to
 help you, if you have
@@ -78,14 +78,14 @@ installed, which is highly recommended.
 
 ## Caching
 
-Agilito can make use of the django caching mechanism, and will do
+Ajellito can make use of the django caching mechanism, and will do
 so when you set it up as per usual in django. Make sure you have
 your TIMEZONE set correctly in settings.py; the objects will be
 retained longer than you want if you don't.
 
 ## Restricted vs. unrestricted story sizes
 
-Agilito supports both methods of sizing by setting the variable
+Ajellito supports both methods of sizing by setting the variable
 UNRESTRICTED\_SIZE to True of False in your settings. This setting
 is instance-wide and affects all your projects. It is currently not
 supported to set this to False after having used projects that were

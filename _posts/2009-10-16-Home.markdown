@@ -4,18 +4,18 @@ name: Home
 layout: default
 category: navigation
 ---
-Agilito aims to do **just enough** for you to effectively and
+Ajellito aims to do **just enough** for you to effectively and
 efficiently manage projects using an Agile methodology.
 ![image](media/agilito-interation-overview-sm.jpg)
 
 ## Where to find help
 
--   [Developer mailing list](http://groups.google.com/group/agilito-dev)
--   #agilito (irc chat room on irc.freenode.net)
+-   [Developer mailing list](http://groups.google.com/group/ajellito-dev)
+-   #ajellito (irc chat room on irc.freenode.net)
 
-# Agilito Features Summary
+# Ajellito Features Summary
 
-Agilito allows you to track iterations, user stories, tasks, test
+Ajellito allows you to track iterations, user stories, tasks, test
 cases, test results in a simple, easy to use agile project
 management tool. There are 5 main screens to easily manage your
 project:
@@ -31,7 +31,7 @@ project:
 -   Backlog screen for storing and refining requirements
     (unscheduled work)
 
-Agilito uses the Django administration screen to:
+Ajellito uses the Django administration screen to:
 
 -   Add users and assign them permissions to projects
 -   Add projects

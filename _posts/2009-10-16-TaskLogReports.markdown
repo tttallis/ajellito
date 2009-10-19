@@ -7,15 +7,15 @@ layout: default
 
 For all projects:
 
-    <path/to/agilito>/csv/
+    <path/to/ajellito>/csv/
 
 For a particular project:
 
-    <path/to/agilito>/<project_id>/csv/
+    <path/to/ajellito>/<project_id>/csv/
 
 For a particular project and particular user:
 
-    <path/to/agilito>/<project_id>/csv/<username>
+    <path/to/ajellito>/<project_id>/csv/<username>
 
 
 

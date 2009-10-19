@@ -1,5 +1,5 @@
 ---
-title: A video tour of the iteration dashboard showing how teams can use Agilito to coordinate, review and communicate the status of their work.
+title: A video tour of the iteration dashboard showing how teams can use Ajellito to coordinate, review and communicate the status of their work.
 name: Working In Iteration
 layout: default
 ---

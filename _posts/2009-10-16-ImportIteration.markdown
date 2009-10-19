@@ -18,7 +18,7 @@ stories/tasks
 
 Fill out the following data in the upper part
 -   **ID** if you are filling in data for an existing sprint. If
-    you don't fill in the ID, Agilito will create a new iteration for
+    you don't fill in the ID, Ajellito will create a new iteration for
     you
 -   **Name** is the sprint name. If you fill out an ID here the
     iteration identified by that ID will be renamed to this name
@@ -39,7 +39,7 @@ for the current project (the import will complain if it isn't).
 Tags are optional.
 
 I implemented this because I couldn't keep up clicking around in
-agilito during our planning sessions, so I have a dump of the
+ajellito during our planning sessions, so I have a dump of the
 product backlog in Excel and use that during planning, and import
 it. It's nowhere near perfect, but it's been useful to us. Consider
 this feature beta.

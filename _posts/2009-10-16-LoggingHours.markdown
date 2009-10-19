@@ -5,7 +5,7 @@ layout: default
 ---
 *note: need to add screenshots*
 
-Login with your account to Agilito and click on "Log" in the tabs:
+Login with your account to Ajellito and click on "Log" in the tabs:
 
 In the right column, there are 2 collapsable menus: "Task", which
 shows the tasks you have recently worked on, and "All", which

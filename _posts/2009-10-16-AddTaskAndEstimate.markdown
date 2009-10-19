@@ -3,7 +3,7 @@ title: Documentation on how to add a task and estimates to a particular user sto
 name: Add Task And Estimate
 layout: default
 ---
-Login to Agilito with your account. In the top left area of the
+Login to Ajellito with your account. In the top left area of the
 screen, under the search box, there is a dropdown list of the
 available projects. Choose the project for which you want to
 estimate.
