@@ -17,8 +17,6 @@ system:
 -   python-dateutil
 -   pyExcelerator (optional,
     [http://sourceforge.net/projects/pyexcelerator](http://sourceforge.net/projects/pyexcelerator))
--   matplotlib (optional,
-    [http://matplotlib.sourceforge.net/](http://matplotlib.sourceforge.net/))
 
 Install Django. If you already have Django installed, just jump
 into the next step, otherwise you'll need to install Django. Take

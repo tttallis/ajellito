@@ -1,1 +1,7 @@
-_site
+*.pyc
+accounts
+agilito.sqlite
+agilito
+queryutils
+settings.py
+tagging
