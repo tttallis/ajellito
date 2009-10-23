@@ -32,6 +32,13 @@ Clone the Ajellito repo and run the installer script:
         $ cd ajellito
         $ ./agilito/install.py
 
+If you want to run agilito behind apache, re-run the installer with
+the --apache option:
+
+        $ ./agilito/install.py --apache
+
+and it will output a config for apache that will het you started.
+
 **IMPORTANT: You don't specifically have to name the project
 'ajellito'; it can be anything, as long as it's not *agilito*.**
 
