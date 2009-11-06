@@ -52,5 +52,13 @@ To do:
 -   Releases
 -   Advanced reporting of hours
 
+This product is relatively new, and while I can appreciate why you
+might want to fork code to your own repository (GitHub makes this very
+easy), I would prefer it if patches were submitted upstream to this code base to help
+avoid fragmenting the product into multiple unfinished projects. Of
+course, the code is open source and you're free to fork it if you wish - however it'd be nice to have a central repository that is as
+advanced and complete as possible.
 
+For more information, see this [essay](http://www.pointy-stick.com/blog/2009/03/16/dark-side-distributed-version-control/) by Malcolm Tredinnick. If you
+have any comments, please email them to me at friflaj@ajellito.com. Thanks for understanding. 
 
