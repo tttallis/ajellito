@@ -85,5 +85,21 @@ is instance-wide and affects all your projects. It is currently not
 supported to set this to False after having used projects that were
 created while it was set to True.
 
+## Backlog Archival
 
-
+The nature of agile makes the backlog a fluid entity; it will be hard
+to look back a year and compare what your backlog looked like then.
+Unfortunately you need to be able to do just this when you're working
+under formal certification rules -- IPMA, CMMI, you name it. Ajellito
+facilitates this by automatically archiving your backlog to a git
+repository. In your settings.py, point BACKLOG_ARCHIVE to a fresh git
+repository (create a new directory *outside your web dir* and run "git
+init" in it), stick archive/archiver.py in a crontab, and Bob's your
+uncle. You can archive on any schedule you like; the nature of git
+makes sure it only stores anything when there are actual changes to
+commit, but in practice more than once a day will be hardly effective,
+since the web-interface will only allow you to pick a date for
+retrieval, not date and time. The backlog archive (and anything
+spreadsheetish as of now) will in OpenDocument Spreadsheet format, so
+if you're using Miscrosoft Office, make sure you have at least 2007
+SP2. Any other spreadsheet I know already supports ODS.
