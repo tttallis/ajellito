@@ -97,9 +97,9 @@ repository (create a new directory *outside your web dir* and run "git
 init" in it), stick archive/archiver.py in a crontab, and Bob's your
 uncle. You can archive on any schedule you like; the nature of git
 makes sure it only stores anything when there are actual changes to
-commit, but in practice more than once a day will be hardly effective,
+commit, but in practice more than once a day will hardly be effective,
 since the web-interface will only allow you to pick a date for
 retrieval, not date and time. The backlog archive (and anything
-spreadsheetish as of now) will in OpenDocument Spreadsheet format, so
+spreadsheetish as of now) will be in OpenDocument Spreadsheet format, so
 if you're using Miscrosoft Office, make sure you have at least 2007
-SP2. Any other spreadsheet I know already supports ODS.
+SP2. Any other spreadsheet app I know of already supports ODS.
