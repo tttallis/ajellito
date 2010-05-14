@@ -8,10 +8,19 @@ Ajellito aims to do **just enough** for you to effectively and
 efficiently manage projects using an Agile methodology.
 ![image](media/agilito-interation-overview-sm.jpg)
 
-## Where to find help
+## Development halted
 
--   [Developer mailing list](http://groups.google.com/group/ajellito-dev)
--   #ajellito (irc chat room on irc.freenode.net)
+Ajellito/Agilito has turned into a one-man project, and that leaves to
+little opportunity for load-sharing and feedback. I have shifted all
+my efforts to [Redmine Backlogs 2.1](http://github.com/relaxdiego/redmine_backlogs/tree/2.1). 
+I have included a tool in the ajellito sources (toyaml.py) that will
+allow you to dump your projects in a format that can be imported
+cleanly into Redmine Backlogs. Redmine provides a richer base for what
+Ajellito/Agilito set to achieve; in a mere two weeks I've replicated
+everything that was in Ajellito/Agilito in Redmine, and gained all
+that redmine has to offer in the process, so as far as I'm concerned
+this move is final. I'll keep this repository up for those still
+interested in its source.
 
 # Ajellito Features Summary
 
@@ -45,12 +54,6 @@ In Agilto's UI:
 -   Add/edit/delete test cases on user stories
 -   Add/edit/delete test results on test cases
 -   Export task logs to csv
-
-To do:
-
--   Capacity
--   Releases
--   Advanced reporting of hours
 
 This product is relatively new, and while I can appreciate why you
 might want to fork code to your own repository (GitHub makes this very
